@@ -22,6 +22,7 @@ Twinkle::Twinkle()
 	m_maxIter = 150;
 	m_maxZIter = 5;
 	m_errorMin = 1;
+	m_precision = 6;
 	m_rows = 1;
 	m_cols = 1;
 }
@@ -40,6 +41,7 @@ Twinkle::Twinkle(std::string filename)
 	m_maxIter = 150;
 	m_maxZIter = 5;
 	m_errorMin = 1;
+	m_precision = 6;
 	m_rows = 1;
 	m_cols = 1;
 	//
