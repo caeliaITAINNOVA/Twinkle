@@ -10,7 +10,7 @@ This product includes software developed at [ITAINNOVA](http://www.itainnova.es)
 Twinkle has two kind of licenses: commercial and open-source.
 
 #### * Commercial license
-If you want to use Twinkle in a commercial way (any use out of open source applications under [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html)), please contact with [ITAINNOVA](http://www.itainnova.es).
+If you want to use Twinkle in a commercial way (any use out of open source applications under [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html)), please contact with [ITAINNOVA](http://www.itainnova.es) (caelia@itainnova.es).
 
 #### * Open source license
 If you are creating an open source application under a license compatible with the [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html) you may use Twinkle under its terms and conditions.
