@@ -26,11 +26,17 @@ README.md
 
 # Getting started
 In order to compile Twinkle it is necessary to previously install Armadillo. Armadillo is an open source library for linear algebra and scientific computing, based on LAPACK (Linear Algebra PACKage) and BLAS (Basic Linear Algebra Subprograms) routines. It is therefore necessary to install all three packages following the instructions on Armadillo web page.\
-If you prefer using precompiled files, please select a folder corresponding to your OS (available for linux and win64). Otherwise compile the library and the executable using the following commands respectively (see more under gcc online documentation).
+If you prefer using precompiled files, please select a folder corresponding to your OS (available for CentOS Linux 7 and win64). Otherwise compile the library and the executable using the following commands respectively (see more under gcc online documentation).
 
+#### * _CentOS Linux 7 (Core)_
 _g++ -c -shared Twinkle.cpp -o Twinkle.so -I"Path_to/armadillo_bits" -I"Path_to/armadillo" -L"/usr/local/lib" -includearmadillo -O2 -g3 -Wall -fmessage-length=0_ 
 
 _g++ -o runTwinkle runTwinkle.cpp Path_to_twinkle/*.cpp -I Path_to_twinkle/ -I Path_to/armadillo -L /usr/local/lib -llapack -lblas –lgfortran_ 
+
+#### * _Ubuntu 16.04_
+_g++ -c -shared Twinkle.cpp -o libTwinkle.so -includearmadillo -O2 -g3 -Wall -std=gnu++11_
+
+_g++ -o runTwinkle runTwinkle.cpp Path_to_twinkle/*.cpp -I Path_to_twinkle/ -L -llapack -lblas -lgfortran -larmadillo -std=gnu++11_
 
 The executable file, that uses Twinkle library, provides a help guide for software usage. It can be visualized by typing the -help command.
 
