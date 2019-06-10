@@ -1,0 +1,8 @@
+setParams(double globalTol, double termTol, int maxIter, int maxZIter, int precision, int maxTerm, int initMode)
+-globalTol - Global convergence tolerance
+-termTol - Tolerance for the ALS method
+-maxIter - Maximum number of reinitializations if the ALS method does not achieve convergence
+-maxZIter - Maximum number of iterations of the ALS method
+-precision - number of significant digits on the output files
+-maxTerm - Maximum number of terms in the ROM
+-initMode - Initialization mode. 0 - Random. 1 - Linear. 2 - from previous ROM
