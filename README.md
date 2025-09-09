@@ -5,12 +5,16 @@ TWINKLE: A Digital-Twin-Building Kernel for Real-Time Computer-Aided Engineering
 TWINKLE is a library for building families of solvers to perform Canonical Polyadic Decomposition (CPD) of tensors. The common characteristic of these solvers is that the data structure supporting the tuneable solution strategies is based on a Galerkin projection of the phase space. This allows processing and recovering tensors described by highly sparse and unstructured data. For achieving high performance, TWINKLE is written in C++ and uses the Armadillo open source library for linear algebra and scientific computing, based on LAPACK (Linear Algebra PACKage) and BLAS (Basic Linear Algebra Subprograms) routines. The library has been implemented keeping in mind its future extensibility and adaptability to fulfil the different users' needs in academia and industry regarding Reduced Order Modelling (ROM) and data analysis by means of tensor decomposition. It is especially focused on post-processing data from Computer-Aided-Engineering (CAE) simulation tools. For additional information about Twinkle, please refer to this [SoftwareX publication](https://www.sciencedirect.com/science/article/pii/S2352711019300664).
 #### European Projects that used Twinkle:
 * [Stream-0D] (https://cordis.europa.eu/project/id/723082)
+* [CO-VERSATILE] (https://cordis.europa.eu/project/id/101016070)
 * [MouldTex] (https://cordis.europa.eu/project/id/768705)
 * [DIGITbrain] (https://cordis.europa.eu/project/id/952071)
 * [MASTERMINE] (https://cordis.europa.eu/project/id/101091895)
 * [PROBONO] (https://cordis.europa.eu/project/id/101037075)
+* [Dig_IT] (https://cordis.europa.eu/project/id/869529)
 * [imPURE] (https://cordis.europa.eu/project/id/101016262)
+* [Flex4Fact] (https://cordis.europa.eu/project/id/101058657)
 * [Twin4Twin] (https://cordis.europa.eu/project/id/101079180)
+* [CAELESTIS] (https://cordis.europa.eu/project/id/101056886)
 * [METAWAVE] (https://cordis.europa.eu/project/id/101138476)
 * [StreamSTEP] (https://cordis.europa.eu/project/id/101178351)
 * and many others
